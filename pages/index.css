@@ -103,6 +103,13 @@
     margin-bottom: 3rem;
   }
 
+  @media screen and (min-height:500px){
+    .section {
+      padding: 3.2rem 0 2rem;
+    }
+
+  }
+
   @media screen and (min-width: 1023px){
     .section {
       padding: 7rem 0 1rem;
@@ -173,7 +180,7 @@
 /* Swiper class */
 
 .swiper-wrapper {
-  height: 50%;
+  height: 70vh;
 }
 
 .swiper-button-prev::after,
