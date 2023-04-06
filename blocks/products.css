@@ -24,3 +24,21 @@
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
+
+@media screen and (max-width: 340px){
+  .products__card{
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 1023px){
+    .products__container{
+        width: 954px;
+    }
+  }
+
+@media screen and (min-width: 1124px){
+    .products__container{
+        padding-bottom: 7rem;
+    }
+  }

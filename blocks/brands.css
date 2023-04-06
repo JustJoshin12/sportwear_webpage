@@ -1,0 +1,36 @@
+.brand__container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 1.25rem;
+}
+
+.brand__img{
+    width: 120px;
+}
+
+.brand__img:nth-child(even){
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 340px){
+  .brand__container{
+    grid-template-columns: repeat(2, 100px);
+    row-gap: .5rem;
+  }
+}
+
+@media screen and (min-width: 767px){
+  .brand__container{
+    grid-template-columns: repeat(4, max-content);
+  }
+}
+
+@media screen and (min-width: 1124px){
+  .brand__container{
+    column-gap: 5.5rem;
+  }
+
+  .brand__img{
+    width: 140px;
+  }
+}
