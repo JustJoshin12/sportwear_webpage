@@ -20,9 +20,10 @@
 }
 
 
-.products__price{
+.product__price{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 340px){
