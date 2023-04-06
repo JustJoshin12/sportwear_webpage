@@ -15,6 +15,7 @@ let swiperProducts = new Swiper(".products__container", {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
+  loop: true,
 
   navigation: {
     nextEl: ".swiper-button-next",
