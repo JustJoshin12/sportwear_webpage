@@ -93,8 +93,12 @@
   }
   .nav__link i{
     display: none;
-    margin-left: 1rem;
   }
+  
+.nav-change-theme{
+  margin-left: 1rem;
+}
+
   .nav__link:hover{
     color: var(--title-color);
   }
