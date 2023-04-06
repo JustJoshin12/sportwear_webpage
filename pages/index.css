@@ -63,6 +63,7 @@
 
   /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
+    max-width: 1023px;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
   }
@@ -171,6 +172,9 @@
 
 /* Swiper class */
 
+.swiper-wrapper {
+  height: 50%;
+}
 
 .swiper-button-prev::after,
 .swiper-button-next::after{
