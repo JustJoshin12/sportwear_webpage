@@ -5,6 +5,11 @@
 
 }
 
+
+.collection__img{
+    width: 330px;
+    height: 477px;
+}
 .collection__container{
     position: relative;
     height: 571px;
