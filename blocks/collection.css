@@ -10,6 +10,8 @@
     width: 330px;
     max-height: 477px;
 }
+
+
 .collection__container{
     position: relative;
     height: 571px;
@@ -76,6 +78,9 @@
     margin-bottom: 0;
 }
 
+.collection__img{
+    max-height: 425px;
+}
 }
 
 @media screen and (min-width: 1124px){
